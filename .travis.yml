@@ -9,8 +9,8 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "nazarhevelencko.com-staging"
-    region: eu-central-1
+    bucket: "nazarhevelencko.com-staging" 
+    region: us-east-2
     acl: public_read
     on:
       branch: develop
@@ -19,7 +19,7 @@ deploy:
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
     bucket: "nazarhevelencko.com-production"
-    region: eu-central-1
+    region: us-east-2
     acl: public_read
     on:
       branch: master
